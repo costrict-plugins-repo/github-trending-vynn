@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "vynn": {
+      "command": "uvx",
+      "args": ["vynn-mcp"],
+      "env": {}
+    }
+  }
+}

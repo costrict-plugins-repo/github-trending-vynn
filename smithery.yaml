@@ -1,0 +1,20 @@
+# Smithery configuration file: https://smithery.ai/docs/config#smitheryyaml
+
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    required:
+      - vynnApiKey
+    properties:
+      vynnApiKey:
+        type: string
+        description: "Your Vynn API key. Get one free at https://the-vynn.com or via: curl -X POST https://the-vynn.com/v1/signup -H 'Content-Type: application/json' -d '{\"email\": \"you@example.com\"}'"
+  commandFunction: |-
+    (config) => ({
+      command: 'vynn-mcp',
+      args: [],
+      env: {
+        VYNN_API_KEY: config.vynnApiKey
+      }
+    })

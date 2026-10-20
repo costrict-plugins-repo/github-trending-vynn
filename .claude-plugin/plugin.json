@@ -1,0 +1,13 @@
+{
+  "name": "vynn",
+  "description": "Self-improving AI workflows & backtesting. Run backtests, optimize prompts, manage workflows, and set up schedules directly in Claude Code.",
+  "version": "0.1.1",
+  "author": {
+    "name": "Vynn",
+    "email": "hello@the-vynn.com"
+  },
+  "homepage": "https://the-vynn.com",
+  "repository": "https://github.com/beee003/vynn-mcp",
+  "license": "MIT",
+  "keywords": ["mcp", "backtesting", "workflows", "ai", "self-improving", "prompts"]
+}
